@@ -39,9 +39,10 @@ var forTextNode = document.createTextNode('This is a TEXTNODE!');
 newElement.appendChild(forTextNode);
 
 // classList add
-function twoOCFunction() {
-    document.getElementById('lastDiv').classList.add('styleDiv');
-}
+var sponge = document.getElementById('image');
+sponge.setAttribute('src', "https://m.media-amazon.com/images/M/MV5BNDUwNjBkMmUtZjM2My00NmM4LTlmOWQtNWE5YTdmN2Y2MTgxXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_UX477_CR0,0,477,268_AL_.jpg");
+sponge.classList.add('on-image');
+sponge.classList.remove('off-image');
 
 // classList remove
 // classList toggle
